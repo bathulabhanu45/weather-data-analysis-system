@@ -1,0 +1,21 @@
+{
+  "name": "weather-data-analysis-system",
+  "version": "1.0.0",
+  "description": "Enterprise Weather Data Analysis & Intelligence System",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "./venv/bin/python3 -m backend.app",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "weather",
+    "analytics",
+    "meteorology",
+    "react",
+    "flask",
+    "mysql",
+    "pandas"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}
